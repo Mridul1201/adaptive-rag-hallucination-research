@@ -1,0 +1,4 @@
+method,correct_answers,total_questions,accuracy,accuracy_percent
+No retrieval + FLAN-T5-small,3,180,0.016666666666666666,1.67
+Fixed BM25 RAG + FLAN-T5-small,100,180,0.5555555555555556,55.56
+Metadata-assisted RAG + FLAN-T5-small,101,180,0.5611111111111111,56.11

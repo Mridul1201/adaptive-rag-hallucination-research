@@ -1,0 +1,6 @@
+method,correct_answers,total_questions,accuracy_percent,95% CI,method_description
+No retrieval + FLAN-T5-small,3,180,1.67,0.57%–4.78%,Parametric baseline without retrieved evidence
+Fixed BM25 RAG + FLAN-T5-small,100,180,55.56,48.26%–62.62%,Fixed lexical retrieval followed by generation
+Metadata-assisted RAG + FLAN-T5-small,101,180,56.11,48.81%–63.16%,Metadata-assisted retrieval followed by generation
+Fixed BM25 + rule extraction,179,180,99.44,96.92%–99.90%,Deterministic extraction from the top-ranked passage
+Metadata-assisted retrieval + rule extraction,180,180,100.0,97.91%–100.00%,Metadata-assisted evidence selection and extraction

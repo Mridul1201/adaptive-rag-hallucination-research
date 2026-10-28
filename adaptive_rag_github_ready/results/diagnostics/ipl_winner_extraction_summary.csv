@@ -1,0 +1,3 @@
+method,correct,total,accuracy_percent
+Fixed BM25 RAG + FLAN-T5-small,12,60,20.0
+Fixed BM25 + deterministic winner extraction,60,60,100.0

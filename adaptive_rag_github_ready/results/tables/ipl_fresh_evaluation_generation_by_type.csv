@@ -1,0 +1,10 @@
+question_type,method,correct_answers,total_questions,accuracy,accuracy_percent
+batter_runs,No retrieval + FLAN-T5-small,3,60,0.05,5.0
+batter_runs,Fixed BM25 RAG + FLAN-T5-small,49,60,0.8166666666666667,81.67
+batter_runs,Metadata-assisted RAG + FLAN-T5-small,49,60,0.8166666666666667,81.67
+innings_runs,No retrieval + FLAN-T5-small,0,60,0.0,0.0
+innings_runs,Fixed BM25 RAG + FLAN-T5-small,39,60,0.65,65.0
+innings_runs,Metadata-assisted RAG + FLAN-T5-small,40,60,0.6666666666666666,66.67
+match_winner,No retrieval + FLAN-T5-small,0,60,0.0,0.0
+match_winner,Fixed BM25 RAG + FLAN-T5-small,12,60,0.2,20.0
+match_winner,Metadata-assisted RAG + FLAN-T5-small,12,60,0.2,20.0

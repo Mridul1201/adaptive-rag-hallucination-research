@@ -1,0 +1,6 @@
+method,correct_answers,total_questions,accuracy,accuracy_percent
+No retrieval + FLAN-T5-small,5,60,0.08333333333333333,8.33
+Fixed BM25 RAG + FLAN-T5-small,33,60,0.55,55.0
+Metadata-assisted RAG + FLAN-T5-small,34,60,0.5666666666666667,56.67
+Fixed BM25 + rule-based extraction,59,60,0.9833333333333333,98.33
+Metadata-assisted retrieval + rule-based extraction,60,60,1.0,100.0

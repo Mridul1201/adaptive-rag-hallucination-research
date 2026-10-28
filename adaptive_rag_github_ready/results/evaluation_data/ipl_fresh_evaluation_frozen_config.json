@@ -1,0 +1,19 @@
+{
+  "experiment": "IPL adaptive RAG fresh evaluation",
+  "evaluation_sample_size": 180,
+  "questions_per_type": 60,
+  "random_seed": 20261028,
+  "excluded_development_pilot_size": 60,
+  "language_model": "google/flan-t5-small",
+  "retrieval_method": "BM25",
+  "retrieval_top_k": 3,
+  "adaptive_innings_runs_candidate_pool": 10,
+  "adaptive_batter_runs_candidate_pool": 3,
+  "winner_retrieval_rule": "fixed BM25 top-1",
+  "extraction_method": "extract_answer_from_evidence_v2",
+  "answer_generation": {
+    "do_sample": false,
+    "num_beams": 1,
+    "max_new_tokens": 32
+  }
+}

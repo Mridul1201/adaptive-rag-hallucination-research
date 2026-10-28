@@ -1,0 +1,4 @@
+question_type,questions,fixed_target_hits,adaptive_target_hits,fixed_hit_rate,adaptive_hit_rate
+batter_runs,60,60,60,1.0,1.0
+innings_runs,60,59,60,0.9833333333333333,1.0
+match_winner,60,60,60,1.0,1.0

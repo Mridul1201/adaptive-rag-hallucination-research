@@ -1,0 +1,4 @@
+method_A,method_B,A_only_correct,B_only_correct,discordant_pairs,exact_mcnemar_p
+Fixed BM25 RAG + FLAN-T5-small,Metadata-assisted RAG + FLAN-T5-small,0,1,1,1.0
+Fixed BM25 + rule extraction,Metadata-assisted retrieval + rule extraction,0,1,1,1.0
+Fixed BM25 RAG + FLAN-T5-small,Fixed BM25 + rule extraction,0,79,79,3.308722450212111e-24
