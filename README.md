@@ -4,6 +4,13 @@ An experimental research project investigating retrieval, answer generation, and
 
 > **Research status:** Experimental project in progress. The manuscript is not yet finalized or published.
 
+## Explore the Project
+
+- [Open the research notebook](adaptive_rag_github_ready/notebooks/IPL_Adaptive_RAG_Research_Cleaned.ipynb)
+- [Browse the main results tables](adaptive_rag_github_ready/results/tables/)
+- [View statistical tests](adaptive_rag_github_ready/results/statistical_tests/)
+- [Explore error analysis](adaptive_rag_github_ready/results/diagnostics/)
+
 ## Research Overview
 
 Retrieval-Augmented Generation (RAG) combines information retrieval with language generation to help language models answer questions using external evidence. This project compares retrieval and answer-extraction strategies on questions constructed from historical IPL match data.
