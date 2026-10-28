@@ -51,13 +51,13 @@ These are preliminary results on a template-generated benchmark built from struc
 
 ## Repository Contents
 
-- `notebooks/` — research notebook and experimental workflow.
-- `results/tables/` — method-comparison and question-type tables.
-- `results/statistical_tests/` — confidence intervals and paired statistical tests.
-- `results/diagnostics/` — retrieval summaries and error analyses.
-- `results/evaluation_data/` — evaluation configuration and question files.
-- `results/development_pilot/` — separate pilot artifacts.
-- `requirements.txt` — Python dependencies.
+- [`notebooks/`](adaptive_rag_github_ready/notebooks/) — research notebook and experimental workflow.
+- [`results/tables/`](adaptive_rag_github_ready/results/tables/) — method-comparison and question-type tables.
+- [`results/statistical_tests/`](adaptive_rag_github_ready/results/statistical_tests/) — confidence intervals and paired statistical tests.
+- [`results/diagnostics/`](adaptive_rag_github_ready/results/diagnostics/) — retrieval summaries and error analyses.
+- [`results/evaluation_data/`](adaptive_rag_github_ready/results/evaluation_data/) — evaluation configuration and question files.
+- [`results/development_pilot/`](adaptive_rag_github_ready/results/development_pilot/) — separate pilot artifacts.
+- [`requirements.txt`](adaptive_rag_github_ready/requirements.txt) — Python dependencies.
 
 ## Reproducibility
 
