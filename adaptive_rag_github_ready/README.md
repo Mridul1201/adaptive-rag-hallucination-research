@@ -62,6 +62,4 @@ These are observed results on this benchmark. They do not establish perfect gene
 
 This package contains evaluation artifacts, not the complete source notebook, full dataset, or all code needed to recreate every experiment. The Colab notebook and dependency/environment details should be added before describing the repository as fully reproducible.
 
-## Data and licensing
 
-Check the source dataset's terms and attribution requirements before redistributing data or derived records. Do not include credentials, API keys, or other secrets.
