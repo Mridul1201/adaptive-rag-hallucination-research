@@ -49,17 +49,5 @@ These are observed results on this benchmark. They do not establish perfect gene
 - `results/evaluation_data/` — frozen evaluation questions, IDs, and configuration
 - `results/development_pilot/` — earlier pilot artifacts, kept separate from the final 180-question evaluation
 
-## Important limitations
-
-- Questions are template-generated from structured historical match records.
-- Rule extraction is tailored to the passage templates.
-- Evaluation covers one domain and one frozen sample.
-- Retrieval quality, answer accuracy, and evidence support are different measures.
-- A correct answer alone does not establish that the answer was grounded in retrieved evidence.
-- Additional evaluation on independent datasets and less structured questions is needed before making broad claims about hallucination reduction.
-
-## Reproducibility status
-
-This package contains evaluation artifacts, not the complete source notebook, full dataset, or all code needed to recreate every experiment. The Colab notebook and dependency/environment details should be added before describing the repository as fully reproducible.
 
 
