@@ -54,7 +54,7 @@ In the current 180-question evaluation, exact-match accuracy was:
 | Fixed BM25 + deterministic extraction | 179/180 | 99.44% |
 | Metadata-assisted retrieval + deterministic extraction | 180/180 | 100.00% |
 
-These are preliminary results on a template-generated benchmark built from structured cricket data. They do not establish general hallucination reduction across domains. Further reproducibility and evidence-grounding checks are needed.
+These are preliminary results on a template-generated benchmark built from structured cricket data. They do not establish general hallucination reduction across domains. 
 
 ## Repository Contents
 
@@ -66,22 +66,38 @@ These are preliminary results on a template-generated benchmark built from struc
 - [`results/development_pilot/`](adaptive_rag_github_ready/results/development_pilot/) — separate pilot artifacts.
 - [`requirements.txt`](adaptive_rag_github_ready/requirements.txt) — Python dependencies.
 
-## Reproducibility
 
-The notebook is provided for inspection and further experimentation. A successful end-to-end execution from a fresh Google Colab runtime has not yet been independently verified. Dataset availability, package versions, and execution requirements may affect reproduction.
 
 ## Limitations
 
 - Questions are template-generated from structured IPL data rather than a broad, naturally occurring question distribution.
-- The evaluation contains 180 questions and covers only three question categories.
+- The evaluation contains 180 questions and covers three question categories.
 - Metadata-assisted retrieval is rule-based and task-specific.
 - Deterministic extraction relies on the structure and format of the retrieved evidence.
 - High exact-match accuracy on this benchmark should not be generalized to open-domain question answering without additional evaluation.
 
 ## Data Source
 
-The project uses historical IPL match data from [Cricsheet](https://cricsheet.org/). Please consult the source's current terms and attribution requirements before redistributing data.
+The project uses historical IPL match data from [Cricsheet](https://cricsheet.org/). 
 
 ## Research Status
 
-This repository documents an ongoing experimental project. The manuscript, reproducibility checks, and further evaluation may be updated as the research develops.
+The experimental evaluation and personal research report have been completed. The repository includes the research paper, implementation details, evaluation results, statistical analysis, and supporting artifacts. Further experiments and extensions are outlined under Future Work.
+
+## Future Work
+
+Paraphrased Questions: Test the system with naturally phrased and varied questions to evaluate generalisation.
+
+Unanswerable Questions: Evaluate whether the system can identify insufficient evidence and avoid generating unsupported answers.
+
+Improved Models: Experiment with larger language models and better prompting strategies.
+
+Hybrid Approach: Combine deterministic extraction with language-model generation for more flexible question answering.
+
+Advanced Retrieval: Explore dense and hybrid retrieval methods alongside BM25.
+
+Hallucination Verification: Identify, develop, and experimentally validate reliable verification methods that check generated answers against retrieved evidence and reduce hallucinations.
+
+Robust Evaluation: Test across multiple random seeds and larger, more diverse datasets to assess consistency.
+
+These directions aim to improve retrieval quality, answer reliability, and the system's ability to minimise hallucinations.
