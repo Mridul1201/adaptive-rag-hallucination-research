@@ -6,6 +6,7 @@ An experimental research project investigating retrieval, answer generation, and
 
 ## Explore the Project
 
+- [Open the Research Paper](./Structured_IPL_RAG_Revised_Personal_Report_.pdf)
 - [Open the research notebook](adaptive_rag_github_ready/notebooks/IPL_Adaptive_RAG_Research_Cleaned.ipynb)
 - [Browse the main results tables](adaptive_rag_github_ready/results/tables/)
 - [View statistical tests](adaptive_rag_github_ready/results/statistical_tests/)
