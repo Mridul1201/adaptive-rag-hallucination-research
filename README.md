@@ -2,7 +2,7 @@
 
 An experimental research project investigating retrieval, answer generation, and deterministic answer extraction on a structured historical Indian Premier League (IPL) cricket question-answering benchmark.
 
-> **Research status:** Experimental project in progress. The manuscript is not yet finalized or published.
+> **Research status:** Completed.
 
 ## Explore the Project
 
